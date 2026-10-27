@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>visa2go — Мир ближе, чем кажется</title>
+  <meta name="description" content="Ваша новая глава начинается здесь. Выберите страну на интерактивной карте и соберите свой маршрут переезда.">
+  <meta name="theme-color" content="#1664B0">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/fonts/fonts.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="palette.css">
+</head>
+<body>
+  <a class="skip-link" href="#destinations">Перейти к выбору страны</a>
+  <main>
+    <section class="train" id="home" aria-label="Путешествие начинается">
+      <header class="header">
+        <a class="brand" href="#home" aria-label="visa2go — главная">visa<span>2go</span><svg viewBox="0 0 40 32" aria-hidden="true"><path d="m2 14 22-2-7-10 7-1 14 14-14 16-7-1 7-12-22 2z"/></svg></a>
+        <nav aria-label="Главное меню"><a href="#destinations">Направления</a><a href="#journey">Как это работает</a><a href="#questions">Вопросы</a></nav>
+        <button class="header-cta" data-plan>Мой маршрут <span aria-hidden="true">↗</span></button>
+      </header>
+      <div class="window-row" aria-hidden="true">
+        <div class="train-window side left"><div class="glass side-glass"><canvas class="window-video side-video" data-side="left"></canvas><div class="window-shade"></div><div class="glass-light"></div></div></div>
+        <div class="train-window main-window"><div class="glass"><video id="journey-video" class="window-video" autoplay muted loop playsinline preload="auto" poster="assets/alpine-journey-poster.jpg"><source src="assets/alpine-journey.mp4" type="video/mp4"></video><div class="window-shade"></div><div class="glass-light"></div></div></div>
+        <div class="train-window side right"><div class="glass side-glass"><canvas class="window-video side-video" data-side="right"></canvas><div class="window-shade"></div><div class="glass-light"></div></div></div>
+      </div>
+      <div class="hero-content">
+        <div class="eyebrow light"><span class="status-dot"></span> ВИЗЫ · РЕЛОКАЦИЯ · НОВЫЕ ГОРИЗОНТЫ</div>
+        <h1>Мир ближе,<br> чем кажется<span class="period">.</span></h1>
+        <p>В новый город. К новым возможностям.<br> В жизнь, которую выбираете вы.</p>
+        <a class="button cream hero-button" href="#destinations">Куда отправимся? <span aria-hidden="true">↗</span></a>
+        <span class="hero-caption">Большое путешествие начинается с одного шага</span>
+      </div>
+      <div class="train-bottom"><div class="train-ticket"><span class="ticket-icon" aria-hidden="true">↗</span><div><span class="micro">ВАШ МАРШРУТ</span><span>Сегодня — мечта. Завтра — новая глава.</span></div></div><button class="video-control" id="video-toggle" aria-label="Приостановить видео"><span id="play-symbol" aria-hidden="true">Ⅱ</span><span id="play-label">За окном — жизнь</span></button><a href="#destinations" class="scroll-link" aria-label="Перейти к карте стран">Листайте дальше <span>↓</span></a></div>
+      <span class="wall-rivet rivet-one" aria-hidden="true"></span><span class="wall-rivet rivet-two" aria-hidden="true"></span>
+    </section>
+
+    <section class="destinations section-pad" id="destinations">
+      <div class="section-top"><span class="eyebrow">01 / НАПРАВЛЕНИЯ</span><span class="section-note">У каждого путешествия — своя точка на карте</span></div>
+      <div class="destination-heading"><h2>А где ваша<br> <span>новая глава?</span></h2><p>У моря, в большом городе или ближе к горам.<br> Выберите страну — начнём с неё.</p></div>
+      <div class="filter-row"><div class="filters" aria-label="Цель поездки"><button class="filter active" data-filter="all" aria-pressed="true">Все направления <sup>09</sup></button><button class="filter" data-filter="move" aria-pressed="false">Переезд</button><button class="filter" data-filter="work" aria-pressed="false">Работа</button><button class="filter" data-filter="study" aria-pressed="false">Учёба</button></div><label class="country-select-wrap"><span aria-hidden="true">⌕</span><select id="country-select" aria-label="Выбрать страну"></select></label></div>
+      <div class="explorer">
+        <div class="map-wrap"><div class="map-topline"><span><i></i> Нажмите на страну</span><span>ЕВРОПА / 09 НАПРАВЛЕНИЙ</span></div><svg id="europe-map" viewBox="0 0 820 620" role="group" aria-label="Интерактивная карта стран Европы"><g id="map-geography"></g><g id="map-labels"></g></svg><span class="map-ocean" aria-hidden="true">АТЛАНТИЧЕСКИЙ<br> ОКЕАН</span><div class="map-controls"><button id="zoom-in" aria-label="Приблизить карту">+</button><button id="zoom-out" aria-label="Отдалить карту">−</button><button id="zoom-reset" aria-label="Сбросить масштаб">↺</button></div><div class="map-legend"><span class="legend-dot"></span> Можно выбрать <span class="legend-dot selected-dot"></span> Ваш выбор</div><span class="map-tooltip" id="map-tooltip" role="status"></span></div>
+        <article class="destination-card" aria-live="polite"><div class="destination-photo" id="destination-photo"><img src="assets/lisbon.jpg" alt="Лиссабон: красные крыши и река Тежу" id="destination-image"><span class="country-code" id="country-code">PT</span><span class="photo-label" id="city-name">ЛИССАБОН, ПОРТУГАЛИЯ</span><span class="photo-arrow" aria-hidden="true">↗</span></div><div class="destination-info"><div class="card-top"><span class="eyebrow">ВАША СЛЕДУЮЩАЯ ОСТАНОВКА</span><span id="country-number">01 / 09</span></div><h3 id="country-name">Португалия</h3><p id="country-description">Океан за окном. Солнечные улицы. Время для нового ритма жизни.</p><div class="country-tags" id="country-tags"></div><button class="button blue card-button" data-plan>Построить мой маршрут <span aria-hidden="true">↗</span></button></div></article>
+      </div>
+      <div class="country-list" id="country-list" aria-label="Список направлений"></div>
+    </section>
+
+    <section class="journey section-pad" id="journey"><div class="section-top"><span class="eyebrow">02 / ОТ МЕЧТЫ К МАРШРУТУ</span><span class="section-note">Не нужно знать всё заранее</span></div><div class="journey-heading"><h2>Большие перемены.<br> Понятные шаги.</h2><p>Разложим большую идею на небольшие этапы.<br> Всё начинается с вашего «хочу».</p></div><div class="steps"><article><span class="step-number">01</span><span class="step-line"></span><h3>Выберите точку<br> на карте</h3><p>Страна, которая вам близка.<br> И цель, которая вдохновляет.</p></article><article><span class="step-number">02</span><span class="step-line"></span><h3>Соберите<br> свой маршрут</h3><p>Сохраните направление и список<br> вопросов для подготовки.</p></article><article><span class="step-number">03</span><span class="step-line"></span><h3>Сделайте<br> первый шаг</h3><p>Уточните условия и документы.<br> Дальше — по вашему плану.</p></article></div></section>
+
+    <section class="departure section-pad"><div class="departure-left"><span class="eyebrow">БИЛЕТ В СЛЕДУЮЩУЮ ГЛАВУ</span><h2>Одна жизнь.<br> Много направлений.</h2><button class="button cream" data-plan>Найти своё <span aria-hidden="true">↗</span></button></div><div class="boarding-pass"><div class="pass-title">visa2go <span>BOARDING PASS ↗</span></div><div class="pass-route"><div><span class="micro">ОТКУДА</span><strong>СЕЙЧАС</strong></div><svg viewBox="0 0 100 24" aria-hidden="true"><path d="M0 12h95m-10-9 12 9-12 9"/></svg><div><span class="micro">КУДА</span><strong>ВПЕРЁД</strong></div></div><div class="pass-details"><div><span class="micro">ПАССАЖИР</span><b>ВЫ И ВАША МЕЧТА</b></div><div><span class="micro">МЕСТО</span><b>У ОКНА</b></div></div><div class="pass-bottom"><span>Всё начинается с решения.</span><div class="barcode" aria-hidden="true"></div></div></div></section>
+
+    <section class="questions section-pad" id="questions"><div><span class="eyebrow">03 / ЕСТЬ ВОПРОСЫ?</span><h2>Давайте<br> разберёмся.</h2></div><div class="faq-list"><details><summary>Я ещё не выбрал страну. С чего начать?<span>+</span></summary><p>Подумайте о цели: работа, учёба или смена места жительства. Сравните язык, климат, стоимость жизни и расстояние до близких. Карта поможет сохранить направление, которое вам нравится.</p></details><details><summary>Что входит в мой маршрут?<span>+</span></summary><p>Выбранная страна, цель поездки и список вопросов для подготовки. Маршрут можно скачать и вернуться к нему позже. Это отправная точка для планирования.</p></details><details><summary>Где узнать точные условия въезда?<span>+</span></summary><p>На официальном сайте консульства или миграционной службы страны назначения. Условия зависят от гражданства, цели и срока поездки и могут меняться. Проверяйте их до бронирований.</p></details><details><summary>Можно ли изменить выбранное направление?<span>+</span></summary><p>Конечно. Нажмите на другую страну на карте или выберите её из списка. Сохраните новый маршрут — он заменит предыдущий на этом устройстве.</p></details></div></section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home">visa<span>2go</span><span aria-hidden="true">↗</span></a><span>Новая глава начинается здесь.</span><a href="#home">Наверх ↑</a><small>Концепция сервиса виз и релокации · 2026 <a href="credits.html" style="float:right;text-decoration:underline">Фото и материалы</a></small></footer>
+
+  <dialog id="plan-dialog" aria-labelledby="plan-title"><button class="dialog-close" id="close-dialog" aria-label="Закрыть">×</button><div id="plan-form-panel"><span class="eyebrow">ВАША НОВАЯ ГЛАВА</span><h2 id="plan-title">С чего начнём?</h2><p class="dialog-intro">Соберите первый план своего путешествия.</p><form id="plan-form"><label for="plan-country">Страна назначения</label><select id="plan-country" required></select><label for="plan-purpose">Цель поездки</label><select id="plan-purpose" required><option value="move">Переезд</option><option value="work">Работа</option><option value="study">Учёба</option></select><label for="plan-time">Когда планируете?</label><select id="plan-time"><option>Пока присматриваюсь</option><option>В ближайшие 3 месяца</option><option>В течение полугода</option><option>В течение года</option></select><button type="submit" class="button blue">Собрать мой маршрут <span>↗</span></button><p class="local-note">Ваш выбор сохранится в этом браузере.</p></form></div><div id="plan-result" hidden><span class="eyebrow">ПЕРВЫЙ ШАГ СДЕЛАН</span><h2 id="result-title">Ваш маршрут готов.</h2><div class="result-route" id="result-route"></div><ol class="result-checklist"><li>Проверить условия въезда для вашего гражданства на сайте консульства.</li><li>Уточнить основание и нужные документы для выбранной цели.</li><li>Спланировать бюджет, жильё и сроки поездки.</li><li>Составить вопросы для консультации со специалистом.</li></ol><button class="button blue" id="download-plan">Скачать маршрут <span>↓</span></button><button class="text-button" id="edit-plan">Изменить выбор</button><p class="local-note">План сохранён на этом устройстве. Это список для подготовки, а не перечень визовых требований.</p></div></dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <script type="module" src="app.js"></script>
+</body></html>

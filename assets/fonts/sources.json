@@ -1,0 +1,20 @@
+{
+  "Inter Tight": {
+    "source": "https://github.com/google/fonts/tree/main/ofl/intertight",
+    "license": "OFL-InterTight.txt",
+    "weights": [
+      100,
+      900
+    ],
+    "cyrillic": true
+  },
+  "Manrope": {
+    "source": "https://github.com/google/fonts/tree/main/ofl/manrope",
+    "license": "OFL-Manrope.txt",
+    "weights": [
+      200,
+      800
+    ],
+    "cyrillic": true
+  }
+}

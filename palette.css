@@ -1,0 +1,81 @@
+/* Reference palette: Aegean Sky / Sandy Linen / Scarlet Bikini. */
+:root{--ink:#163b58;--muted:#72777b;--paper:#efe8de;--blue:#1664b0;--red:#d21624;--line:#d6cec2}
+::selection{background:#d21624;color:#fff8ee}
+.blue:hover{background:#0d5195}
+.cream:hover{background:#fff8ee}
+.train{background:radial-gradient(ellipse at 58% 85%,#9ab5ce30,transparent 65%),linear-gradient(90deg,#124d85,#1664b0 24%,#1d70b7 52%,#1664b0 77%,#104e88);color:var(--paper)}
+.train:after{background:linear-gradient(#e6ded2a6,#263c54 28%,#5a7792 50%,#ded3c1 75%,#164f85);box-shadow:0 15px 30px #092f5538}
+.train-window{background:linear-gradient(110deg,#c4bbaf 0%,#354657 6%,#efe8de 9%,#8b8d8e 13%,#2b4056 22%,#728292 40%,#e1d7c8 70%,#6d7b86 85%,#263d54 95%);box-shadow:0 0 0 2px #0e4375,0 0 0 5px #83a2bc,0 0 0 8px #134f83,0 0 0 10px #2d78b5,0 0 0 17px #093b663d,inset 0 2px 4px #fff5e8b0}
+.glass{background:#aac5dc;box-shadow:0 0 0 4px #173c5b,0 0 0 7px #d1c6b8,inset 0 0 30px #173c5b80}
+.glass .window-video{filter:brightness(1.03) saturate(.95)}
+.side .glass{background-image:linear-gradient(#1664b021,#123f6430),url(assets/alpine-journey-poster.jpg)}
+.window-shade{background:linear-gradient(180deg,#10395822,#163b5833 55%,#10395833),radial-gradient(ellipse at 50% 42%,#0b2c4b24,transparent 80%)}
+.glass-light{box-shadow:inset 0 0 25px 8px #123d6166}
+.wall-rivet{background:linear-gradient(50deg,#164570,#d4c9b8)}
+.header nav{border-color:#efe8de55;background:#0c44811a}
+.header nav a{opacity:.95}
+.header-cta{border-color:#efe8de80;color:var(--paper)}
+.header-cta:hover{background:#efe8de1f}
+.status-dot{background:var(--paper);box-shadow:0 0 10px #efe8de88}
+.hero-content h1{color:#fff8ed;text-shadow:0 2px 30px #123d6140}
+.period{color:#ff6c65}
+.hero-content p{color:#fff8ed}
+.hero-button{background:var(--red);color:#fff8ed;box-shadow:0 6px 25px #6b0b2040}
+.hero-button:hover{background:#b81320}
+.light{color:#fff8edcc}
+.hero-caption{color:#fff8ed;opacity:.82}
+.train-ticket div>span:last-child,.scroll-link{opacity:.88}
+.video-control{color:#fff8eddb}
+.destination-heading p,.journey-heading p,.steps p,.destination-info p{color:#667481}
+.filter{color:#687783}
+.filter.active{background:var(--blue);color:#fff8ed}
+.filter:hover:not(.active){border-color:#7b9cba}
+.country-select-wrap{border-color:var(--line)}
+.map-wrap{background:#e3eaf0}
+.map-wrap:before{background-image:radial-gradient(#1664b022 .65px,transparent .65px)}
+.map-topline{color:#74899b}
+.map-topline>span:first-child{color:#456780}
+.map-topline i{background:var(--red)}
+.country-path{fill:#d6d1c8;stroke:#f7f1e8}
+.country-path.selectable{fill:#88b0d3}
+.country-path.selectable:hover,.country-path.selectable:focus-visible{fill:#4a8fc4;stroke:#1664b0}
+.country-path.selected{fill:var(--red)!important;stroke:#fff7eb}
+.country-path.filtered{fill:#d6d1c8}
+.map-label{fill:#345570;stroke:#e3eaf080}
+.map-label.selected{fill:#fff8ed;stroke:var(--red)}
+.map-dot{fill:var(--blue)}
+.map-ocean{color:#7898b1}
+.map-controls button{background:#fff8edf0;border-color:#cbd7df}
+.map-legend{color:#5c7890}
+.legend-dot{background:#88b0d3}
+.selected-dot{background:var(--red)}
+.map-tooltip{background:var(--blue)}
+.destination-card{background:#fbf6ed}
+.destination-photo{background:linear-gradient(135deg,#b4cede,#1664b0)}
+.destination-photo:after{background:linear-gradient(transparent 50%,#14395480)}
+.country-code{background:#efe8def0;color:var(--blue)}
+.card-top{color:#76818a}
+.country-tags span{border-color:#d4d9db;color:#647a8a}
+.country-list button{color:#667d90}
+.country-list button[aria-pressed=true]{color:var(--red);border-color:var(--red)}
+.step-number{border-color:#9eb4c5;color:var(--blue)}
+.departure{background:var(--red);color:var(--paper)}
+.departure .button{color:var(--red)}
+.boarding-pass{background:var(--paper);color:var(--blue);box-shadow:0 15px 35px #680f1a44}
+.boarding-pass:before,.boarding-pass:after{background:var(--red)}
+.pass-route svg{stroke:var(--red)}
+.pass-bottom{border-color:#b0b1ae}
+.barcode{background:repeating-linear-gradient(90deg,#1664b0 0 1px,transparent 1px 3px,#1664b0 3px 6px,transparent 6px 7px,#1664b0 7px 8px,transparent 8px 12px)}
+summary span{color:var(--red)}
+details p,.dialog-intro{color:#657888}
+.footer{background:var(--blue);color:var(--paper)}
+.footer small{opacity:.72}
+dialog::backdrop{background:#0b2d4eaa}
+#plan-form select{background:#fbf6ed;border-color:#cdc7bf}
+.local-note{color:#71808b}
+.text-button{border-color:#91a8ba}
+.toast{background:var(--blue);color:var(--paper)}
+@media(max-width:760px){
+  .main-window{box-shadow:0 0 0 2px #0e4375,0 0 0 5px #83a2bc,0 0 0 8px #134f83,0 0 0 10px #2d78b5,0 0 0 17px #093b663d}
+  .glass .window-video{filter:brightness(.98) saturate(.95)}
+}

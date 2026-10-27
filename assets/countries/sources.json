@@ -1,0 +1,98 @@
+[
+  {
+    "country": "ES",
+    "subject": "Park Güell",
+    "file": "es.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Parc_guell_-_panoramio.jpg",
+    "source_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Parc_guell_-_panoramio.jpg/960px-Parc_guell_-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "essetefano",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "attribution": "essetefano",
+    "changes": "Resized and JPEG compressed for web display; display may crop."
+  },
+  {
+    "country": "FR",
+    "subject": "Champ de Mars",
+    "file": "fr.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MG-Paris-Champ_de_Mars.jpg",
+    "source_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/MG-Paris-Champ_de_Mars.jpg/960px-MG-Paris-Champ_de_Mars.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "Mattgirling",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "",
+    "changes": "Resized and JPEG compressed for web display; display may crop."
+  },
+  {
+    "country": "DE",
+    "subject": "Brandenburg Gate",
+    "file": "de.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_abends.jpg",
+    "source_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Brandenburger_Tor_abends.jpg/960px-Brandenburger_Tor_abends.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Thomas Wolf, www.foto-tw.de",
+    "changes": "Resized and JPEG compressed for web display; display may crop."
+  },
+  {
+    "country": "IT",
+    "subject": "Colosseum",
+    "file": "it.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+    "source_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "FeaturedPics",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "",
+    "changes": "Resized and JPEG compressed for web display; display may crop."
+  },
+  {
+    "country": "PL",
+    "subject": "Wawel Castle",
+    "file": "pl.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Wawel_%284%29.jpg",
+    "source_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Wawel_%284%29.jpg/960px-Wawel_%284%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "Monika Towiańska",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "",
+    "changes": "Resized and JPEG compressed for web display; display may crop."
+  },
+  {
+    "country": "CZ",
+    "subject": "Charles Bridge",
+    "file": "cz.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg",
+    "source_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg/960px-Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "A.Savin",
+    "license": "FAL",
+    "license_url": "http://artlibre.org/licence/lal/en",
+    "attribution": "",
+    "changes": "Resized and JPEG compressed for web display; display may crop."
+  },
+  {
+    "country": "HU",
+    "subject": "Hungarian Parliament Building",
+    "file": "hu.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_from_across_the_Danube%2C_2025-01-11.jpg",
+    "source_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Hungarian_Parliament_Building_from_across_the_Danube%2C_2025-01-11.jpg/960px-Hungarian_Parliament_Building_from_across_the_Danube%2C_2025-01-11.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "Kilyann Le Hen",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "attribution": "",
+    "changes": "Resized and JPEG compressed for web display; display may crop."
+  },
+  {
+    "country": "GR",
+    "subject": "Acropolis of Athens",
+    "file": "gr.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg",
+    "source_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg/960px-1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "",
+    "changes": "Resized and JPEG compressed for web display; display may crop."
+  }
+]
