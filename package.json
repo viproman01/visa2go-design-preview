@@ -1,0 +1,1 @@
+{"name":"visa2go-preview","private":true,"type":"module","scripts":{"check":"node --check app.js && node --check core.js && node --check admin.js && node --check train-windows.js && node --check assets/world-map.js","test":"node --test tests/*.test.mjs backend/worker.test.mjs"}}

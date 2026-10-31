@@ -1,0 +1,183 @@
+{
+  "apiBase": "",
+  "catalog": {
+    "reviewed": false,
+    "citizenships": [
+      {
+        "id": "RU",
+        "name": "Россия"
+      },
+      {
+        "id": "BY",
+        "name": "Беларусь"
+      },
+      {
+        "id": "KZ",
+        "name": "Казахстан"
+      },
+      {
+        "id": "UZ",
+        "name": "Узбекистан"
+      },
+      {
+        "id": "KG",
+        "name": "Кыргызстан"
+      },
+      {
+        "id": "TJ",
+        "name": "Таджикистан"
+      },
+      {
+        "id": "AM",
+        "name": "Армения"
+      },
+      {
+        "id": "AZ",
+        "name": "Азербайджан"
+      }
+    ],
+    "destinations": [
+      {
+        "id": "CZ",
+        "name": "Чехия",
+        "city": "Прага",
+        "image": "assets/countries/cz.jpg",
+        "alt": "Прага, Чехия",
+        "popular": true,
+        "services": [
+          "study",
+          "work",
+          "tourism",
+          "other"
+        ]
+      },
+      {
+        "id": "DE",
+        "name": "Германия",
+        "city": "Берлин",
+        "image": "assets/countries/de.jpg",
+        "alt": "Берлин, Германия",
+        "popular": true,
+        "services": [
+          "study",
+          "work",
+          "tourism",
+          "other"
+        ]
+      },
+      {
+        "id": "FR",
+        "name": "Франция",
+        "city": "Париж",
+        "image": "assets/countries/fr.jpg",
+        "alt": "Париж, Франция",
+        "popular": true,
+        "services": [
+          "study",
+          "work",
+          "tourism",
+          "other"
+        ]
+      },
+      {
+        "id": "IT",
+        "name": "Италия",
+        "city": "Рим",
+        "image": "assets/countries/it.jpg",
+        "alt": "Рим, Италия",
+        "popular": true,
+        "services": [
+          "study",
+          "work",
+          "tourism",
+          "other"
+        ]
+      },
+      {
+        "id": "ES",
+        "name": "Испания",
+        "city": "Барселона",
+        "image": "assets/countries/es.jpg",
+        "alt": "Барселона, Испания",
+        "popular": true,
+        "services": [
+          "study",
+          "work",
+          "tourism",
+          "other"
+        ]
+      },
+      {
+        "id": "PT",
+        "name": "Португалия",
+        "city": "Лиссабон",
+        "image": "assets/lisbon.jpg",
+        "alt": "Лиссабон, Португалия",
+        "popular": false,
+        "services": [
+          "study",
+          "work",
+          "tourism",
+          "other"
+        ]
+      },
+      {
+        "id": "PL",
+        "name": "Польша",
+        "city": "Краков",
+        "image": "assets/countries/pl.jpg",
+        "alt": "Краков, Польша",
+        "popular": false,
+        "services": [
+          "study",
+          "work",
+          "tourism",
+          "other"
+        ]
+      },
+      {
+        "id": "HU",
+        "name": "Венгрия",
+        "city": "Будапешт",
+        "image": "assets/countries/hu.jpg",
+        "alt": "Будапешт, Венгрия",
+        "popular": false,
+        "services": [
+          "study",
+          "work",
+          "tourism",
+          "other"
+        ]
+      },
+      {
+        "id": "GR",
+        "name": "Греция",
+        "city": "Афины",
+        "image": "assets/countries/gr.jpg",
+        "alt": "Афины, Греция",
+        "popular": false,
+        "services": [
+          "study",
+          "work",
+          "tourism",
+          "other"
+        ]
+      }
+    ],
+    "company": {
+      "legalName": "",
+      "address": "",
+      "registrationId": "",
+      "jurisdiction": ""
+    },
+    "contacts": {
+      "telegram": "",
+      "whatsapp": "",
+      "email": ""
+    },
+    "legal": {
+      "privacyVersion": "",
+      "termsVersion": ""
+    }
+  }
+}

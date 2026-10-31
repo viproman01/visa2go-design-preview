@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "visa2go",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-31",
+  "assets": {
+    "directory": "./dist/public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*", "/config/site.json"]
+  },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "visa2go-leads",
+    "database_id": "REPLACE_WITH_CREATED_D1_DATABASE_ID"
+  }],
+  "triggers": {"crons": ["*/5 * * * *"]},
+  "vars": {
+    "LEAD_COLLECTION_ENABLED": "false",
+    "LEGAL_DOCUMENTS_APPROVED": "false",
+    "PUBLIC_ORIGIN": "",
+    "SOURCE_SHA": "development"
+  },
+  "observability": {"enabled": false}
+}
